@@ -1,0 +1,50 @@
+/* 1rem=1em=16px */
+
+/* Width: 2560px */
+@media (max-width: 160em) {
+
+}
+
+/* Width: 1440px */
+@media (max-width: 90em) {
+
+}
+
+/* Width: 375px */
+@media (max-width: 23.4375em) {
+    .header {
+        padding: 1rem;
+    }
+
+    .navigation,
+    .cta {
+        display: none;
+    }
+
+    .container {
+        max-width: 37.5rem;
+        padding: 0;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .hero-page {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .hero-img {
+        grid-row: 1;
+        width: 82%;
+    }
+
+    .catchphrase {
+        font-size: 4.4rem;
+    }
+
+    .line-break {
+        display: none;
+    }
+}

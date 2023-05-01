@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href=".assets/images/favicon-32x32.png">
+
+  <!-- Font links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- CSS links -->
+  <link rel="stylesheet" href="./css/general_styles.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/querries.css">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; padding-top: 5rem;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header class="flex header">
+    <div class="flex logo_nav">
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" alt="snap logo">
+      </a>
+      <!-- Navigation -->
+      <nav class="navigation">
+        <ul class="flex nav-list">
+          <li class="item-menu">
+            <!-- Features -->
+            <div class="flex features" onclick="featurePopup()">
+              <a href="#" class="link">Features</a>
+              <a href="#" class="arr_dwn" id="feat_arr_dwn">
+                <img src="/assets/images/icon-arrow-down.svg" alt="icon arrow down" class="flex">
+              </a>
+              <a href="#" class="arr_up" id="feat_arr_up">
+                <img src="/assets/images/icon-arrow-up.svg" alt="icon arrow up" class="flex">
+              </a>
+            </div>
+            <!-- Features' drop-down menu -->
+            <div class="flex dd_menu dd_features" id="fdd_menu">
+              <span>
+                <img src="/assets/images/icon-todo.svg" alt="icon-todo" class="dd_icon">
+                <a href="#" class="link">Todo List</a>
+              </span>
+              <span>
+                <img src="/assets/images/icon-calendar.svg" alt="icon-calender" class="dd_icon">
+                <a href="#" class="link">Calender</a>
+              </span>
+              <span>
+                <img src="/assets/images/icon-reminders.svg" alt="icon-reminders" class="dd_icon">
+                <a href="#" class="link">Reminders</a>
+              </span>
+              <span>
+                <img src="/assets/images/icon-planning.svg" alt="icon-planning" class="dd_icon">
+                <a href="#" class="link">Planning</a>
+              </span>
+            </div>
+          </li>
+          <li class="item-menu">
+            <!-- Company -->
+            <div class="flex company" onclick="companyPopup()">
+              <a href="#" class="link">Company</a>
+              <a href="#" class="arr_dwn" id="comp_arr_dwn">
+                <img src="/assets/images/icon-arrow-down.svg" alt="icon arrow down" class="flex">
+              </a>
+              <a href="#" class="flex arr_up" id="comp_arr_up">
+                <img src="/assets/images/icon-arrow-up.svg" alt="icon arrow up" class="flex">
+              </a>
+            </div>
+              <!-- Company's drop-down menu -->
+              <div class="flex dd_menu" id="cdd_menu">
+                <span>
+                  <a href="#" class="link">History</a>
+                </span>
+                <span>
+                  <a href="#" class="link">Our Team</a>
+                </span>
+                <span>
+                  <a href="#" class="link">Blog</a>
+                </span>
+              </div>
+          </li>
+          <li class="item">
+            <a href="#" class="link">Careers</a>
+          </li>
+          <li class="item">
+            <a href="#" class="link">About</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="flex cta">
+      <a href="#" class="link login">Login</a>
+      <a href="#" class="link register">Register</a>
+    </div>
+    <img src="./assets/images/icon-menu.svg" alt="menu icon" class="menu">
+  </header>
+  <main class="container">
+    <section class="flex hero-page">
+      <section class="flex write-ups">
+        <p class="catchphrase">Make <br class="line-break"> remote work</p>
+        <p class="catchphrase2">
+          Get your team in sync, no matter your location.<br>
+          Streamline processes, create team rituals, and<br> 
+          watch productivity soar.
+        </p>
+        <a href="#" class="link learn-more">Learn more</a>
+        <div class="flex sponsors">
+          <img src="./assets/images/client-databiz.svg" alt="databiz-logo" class="databiz">
+          <img src="./assets/images/client-audiophile.svg" alt="audiophile-logo" class="audiophile">
+          <img src="./assets/images/client-meet.svg" alt="meet-logo" class="meet">
+          <img src="./assets/images/client-maker.svg" alt="maker-logo" class="maker">
+        </div>
+      </section>
+      <img src="./assets/images/image-hero-desktop.png" alt="Portrait of a man on white round-neck polo shirt working remotely with a laptop." class="hero-img">
+    </section>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </main>
+  <script src="/index.js"></script>
+</body>
+</html>
