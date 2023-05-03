@@ -2,7 +2,43 @@
 
 /* Width: 2560px */
 @media (max-width: 160em) {
+    .container {
+        width: 100%;
+        max-width: 256rem;
+    }
 
+    .header {
+        padding: 4rem;
+    }
+
+    .logo_nav {
+        gap: 8rem;
+    }
+
+    .nav-list {
+        gap: 4rem;
+    }
+
+    .cta {
+        gap: 4rem;
+    }
+
+    .dd_features {
+        left: 6%;
+    }
+
+    /* .write-ups {
+        font-size: 2rem
+    } */
+
+    /* .catchphrase {
+        font-size: 14rem;
+    }
+
+    .catchphrase2 {
+        font-size: 5rem;
+    }
+    */
 }
 
 /* Width: 1440px */
