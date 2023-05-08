@@ -33,9 +33,9 @@ body {
 /* GENERAL REUSABLE COMPONENTS */
 /***********************************************/
 .container {
-    width: 100%;
-    max-width: 144rem;
-    padding: 7rem 10rem;
+    inline-size: 100%;
+    max-width: 256rem;
+    padding: 5rem 10rem;
 }
 
 .flex {
