@@ -2,45 +2,194 @@
 
 /* Width: 2498px */
 @media (max-width: 156.125em) {
-    .catchphrase {
-        margin-block-start: 25rem;
+    .sponsors {
+        /* margin-block-start: 38rem; */
     }
 
 }
 
 /* Width: 1440px */
 @media (max-width: 90em) {
-    .logo-nav,
-    .cta {
-        gap: 5rem;
-    }
-
-    .nav-list {
-        gap: 3rem;
-    }
-
     .dd_features {
-        left: 8.5%;
-    }
-
-    .write-ups {
-        gap: 6rem;
+        left: 8%;
     }
 
     .catchphrase {
-        font-size: 8.6rem;
-        margin-block-start: 12rem;
+        font-size: 7.4rem;
     }
 
     .catchphrase2 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .learn-more {
-        font-size: 3rem;
         padding: 1.5rem 3rem;
     }
+}
+
+/* Width: 1389px */
+@media (max-width: 86.8125em) {
+    .sponsors {
+        margin-block-start: 16rem;
+    }
+}
+
+/* Width: 1352px */
+@media (max-width: 84.5em) {
+    .sponsors {
+        margin-block-start: 10rem;
+    }
+}
+
+/* Width: 1261px */
+@media (max-width: 78.8125em) {
+    .logo_nav,
+    .cta {
+        gap: 3rem;
+    }
     
+    .nav-list {
+            gap: 1.5rem;
+        }
+
+    .hero-page {
+        margin-inline: 4rem;
+    }
+
+    .write-ups {
+        gap: 3rem;
+    }
+
+    .catchphrase {
+        font-size: 6.2rem;
+    }
+
+    .catchphrase2 {
+        font-size: 1.5rem;
+    }
+
+    .learn-more {
+        font-size: 1.8rem;
+        padding-block: 1rem;
+        padding-inline: 2rem;
+    }
+
+    .sponsors {
+        margin-block-start: 10rem;
+    }
+}
+
+/* Width: 1160px */
+@media (max-width: 72.5em) {
+    .dd_menu {
+        font-size: 1.5rem;
+        margin-block-start: 1.5rem;
+        padding-block: 1rem;
+        padding-inline: 1rem;
+    }
+
+    .dd_features {
+        left: 11.3%;
+    }
+
+    .sponsors {
+        margin-block-start: 6rem;
+    }
+}
+
+/* Width: 1104px */
+@media (max-width: 69em) {
+    .header {
+        padding-block: 2rem;
+        padding-inline: 2rem;
+    }
+
+    .logo_nav,
+    .cta {
+        gap: 2rem;
+    }
+
+    .cta {
+        font-size: 1.4rem;
+    }
+
+    .nav-list {
+        font-size: 1.4rem;
+        gap: 1rem;
+    }
+
+    .dd_menu {
+        gap: 1rem;
+    }
+
+    .dd_features {
+        left: 7%;
+    }
+
+    .dd_company {
+        left: 19%;
+    }
+
+    .hero-page {
+        margin-inline: 1rem;
+    }
+
+    .write-ups {
+        gap: 2rem;
+    }
+
+    .sponsors {
+        margin-block-start: 6rem;
+    }
+}
+
+/* Width: 1037px */
+@media (max-width: 64.8125em) {
+    .dd_features {
+        left: 8%;
+    }
+
+    .dd_company {
+        left: 19.5%;
+    }
+
+    .catchphrase {
+        font-size: 5.2rem;
+    }
+
+    .catchphrase2 {
+        font-size: 1.3rem;
+    }
+
+    .learn-more {
+        font-size: 1.6rem;
+    }
+
+    .sponsors {
+        margin-block-start: 4rem;
+    }
+}
+
+/* Width: 999px */
+@media (max-width: 62.4375em) {
+    .cta {
+        display: none;
+    }
+
+    .header,
+    .hamburger {
+        display: block;
+    }
+
+    .mobile_cta {
+        display: flex;
+    }
+    
+    .navigation,
+    .nav-list,
+    .mobile_cta {
+        flex-direction: column;
+    }
 }
 
 /* Width: 375px */
