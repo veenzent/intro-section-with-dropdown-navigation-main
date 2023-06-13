@@ -15,7 +15,9 @@
 }
 
 .hamburger,
-.mobile_cta {
+.mobile_cta,
+.close-menu,
+.ctaa {
     display: none;
 }
 
@@ -39,7 +41,7 @@
 .dd_menu {
     background-color: hsl(0, 0%, 100%);
     position: absolute;
-    display: inline-flex;
+    /* display: inline-flex; */
     flex-direction: column;
     gap: 1.3rem;
     align-items: baseline;
@@ -70,7 +72,8 @@
     visibility: visible;
 }
 
-.menu {
+.menu,
+.mobile-hero-img {
     display: none;
 }
 

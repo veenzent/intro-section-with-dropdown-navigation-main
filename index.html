@@ -32,7 +32,85 @@
       </a>
       <!-- Navigation -->
       <nav class=" flex navigation">
-        <img src="/assets/images/icon-menu.svg" alt="mobile menu icon" class="hamburger">
+        <img src="/assets/images/icon-menu.svg" alt="mobile menu icon" class="hamburger" onclick="openMenu()">
+        <div class="mobile-nav" id="mobile-nav">
+          <div class="flex close-menu">
+            <img src="/assets/images/icon-close-menu.svg" alt="close menu icon" class="close-icon" onclick="openMenu()">
+          </div>
+          <div class="flex left">
+            <div class="flex mobile_cta">
+              <ul class="flex mobile-nav-list">
+                <li class="item-menu">
+                  <!-- Features -->
+                  <div class="flex features" onclick="featurePopup()">
+                    <a href="#" class="link">Features</a>
+                    <a href="#" class="arr_dwn" id="feat_arr_dwn">
+                      <img src="/assets/images/icon-arrow-down.svg" alt="icon arrow down" class="flex">
+                    </a>
+                    <a href="#" class="arr_up" id="feat_arr_up">
+                      <img src="/assets/images/icon-arrow-up.svg" alt="icon arrow up" class="flex">
+                    </a>
+                  </div>
+                  <!-- Features' drop-down menu -->
+                  <div class="flex dd_menu dd_features" id="fdd_menu">
+                    <span>
+                      <img src="/assets/images/icon-todo.svg" alt="icon-todo" class="dd_icon">
+                      <a href="#" class="link">Todo List</a>
+                    </span>
+                    <span>
+                      <img src="/assets/images/icon-calendar.svg" alt="icon-calender" class="dd_icon">
+                      <a href="#" class="link">Calender</a>
+                    </span>
+                    <span>
+                      <img src="/assets/images/icon-reminders.svg" alt="icon-reminders" class="dd_icon">
+                      <a href="#" class="link">Reminders</a>
+                    </span>
+                    <span>
+                      <img src="/assets/images/icon-planning.svg" alt="icon-planning" class="dd_icon">
+                      <a href="#" class="link">Planning</a>
+                    </span>
+                  </div>
+                </li>
+                <li class="item-menu">
+                  <!-- Company -->
+                  <div class="flex company" onclick="companyPopup()">
+                    <a href="#" class="link">Company</a>
+                    <a href="#" class="arr_dwn" id="comp_arr_dwn">
+                      <img src="/assets/images/icon-arrow-down.svg" alt="icon arrow down" class="flex">
+                    </a>
+                    <a href="#" class="flex arr_up" id="comp_arr_up">
+                      <img src="/assets/images/icon-arrow-up.svg" alt="icon arrow up" class="flex">
+                    </a>
+                  </div>
+                    <!-- Company's drop-down menu -->
+                    <div class="flex dd_menu dd_company" id="cdd_menu">
+                      <span>
+                        <a href="#" class="link">History</a>
+                      </span>
+                      <span>
+                        <a href="#" class="link">Our Team</a>
+                      </span>
+                      <span>
+                        <a href="#" class="link">Blog</a>
+                      </span>
+                    </div>
+                </li>
+                <li class="item">
+                  <a href="#" class="link">Careers</a>
+                </li>
+                <li class="item">
+                  <a href="#" class="link">About</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="flex center">
+            <div class="flex ctaa">
+              <a href="#" class="link login">Login</a>
+              <a href="#" class="link register">Register</a>
+            </div>
+          </div>
+        </div>
         <ul class="flex nav-list">
           <li class="item-menu">
             <!-- Features -->
@@ -96,20 +174,17 @@
             <a href="#" class="link">About</a>
           </li>
         </ul>
-        <div class="flex mobile_cta">
-          <a href="#" class="link login">Login</a>
-          <a href="#" class="link register">Register</a>
-        </div>
       </nav>
     </div>
     <div class="flex cta">
       <a href="#" class="link login">Login</a>
       <a href="#" class="link register">Register</a>
     </div>
-    <img src="./assets/images/icon-menu.svg" alt="menu icon" class="menu">
+    <!-- <img src="./assets/images/icon-menu.svg" alt="menu icon" class="menu"> -->
   </header>
   <main class="container">
     <section class="grid hero-page">
+      <img src="/assets/images/image-hero-mobile.png" alt="hero image" class="mobile-hero-img">
       <section class="flex hero-write-ups">
         <div class="flex write-ups">
           <p class="catchphrase">Make <br class="line-break"> remote work</p>
@@ -131,7 +206,7 @@
     </section>
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">veen_zent</a>.
     </div>
   </main>
   <script src="/index.js"></script>
